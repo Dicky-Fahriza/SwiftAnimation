@@ -11,6 +11,10 @@
 		5274630C2BD61293001537BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274630B2BD61293001537BF /* ContentView.swift */; };
 		5274630E2BD61294001537BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5274630D2BD61294001537BF /* Assets.xcassets */; };
 		527463112BD61294001537BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527463102BD61294001537BF /* Preview Assets.xcassets */; };
+		5274631B2BD6170C001537BF /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274631A2BD6170C001537BF /* LoadingIndicator.swift */; };
+		5274631F2BD621AF001537BF /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274631E2BD621AF001537BF /* MorphingAnimation.swift */; };
+		527463212BD635E7001537BF /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527463202BD635E7001537BF /* TransitionView.swift */; };
+		527463232BD63B86001537BF /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527463222BD63B86001537BF /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5274630B2BD61293001537BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5274630D2BD61294001537BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527463102BD61294001537BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5274631A2BD6170C001537BF /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		5274631E2BD621AF001537BF /* MorphingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimation.swift; sourceTree = "<group>"; };
+		527463202BD635E7001537BF /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		527463222BD63B86001537BF /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,9 @@
 		527463082BD61293001537BF /* SwiftAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				527463092BD61293001537BF /* SwiftAnimationApp.swift */,
-				5274630B2BD61293001537BF /* ContentView.swift */,
-				5274630D2BD61294001537BF /* Assets.xcassets */,
+				527463182BD612A3001537BF /* App */,
+				527463172BD6129A001537BF /* View */,
+				527463192BD612AA001537BF /* Resources */,
 				5274630F2BD61294001537BF /* Preview Content */,
 			);
 			path = SwiftAnimation;
@@ -65,6 +73,34 @@
 				527463102BD61294001537BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		527463172BD6129A001537BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5274630B2BD61293001537BF /* ContentView.swift */,
+				5274631A2BD6170C001537BF /* LoadingIndicator.swift */,
+				5274631E2BD621AF001537BF /* MorphingAnimation.swift */,
+				527463202BD635E7001537BF /* TransitionView.swift */,
+				527463222BD63B86001537BF /* FancyButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		527463182BD612A3001537BF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				527463092BD61293001537BF /* SwiftAnimationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		527463192BD612AA001537BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5274630D2BD61294001537BF /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5274631B2BD6170C001537BF /* LoadingIndicator.swift in Sources */,
 				5274630C2BD61293001537BF /* ContentView.swift in Sources */,
+				5274631F2BD621AF001537BF /* MorphingAnimation.swift in Sources */,
+				527463232BD63B86001537BF /* FancyButton.swift in Sources */,
+				527463212BD635E7001537BF /* TransitionView.swift in Sources */,
 				5274630A2BD61293001537BF /* SwiftAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
