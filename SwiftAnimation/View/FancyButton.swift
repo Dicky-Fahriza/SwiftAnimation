@@ -2,7 +2,7 @@
 //  FancyButton.swift
 //  SwiftAnimation
 //
-//  Created by MacBook Pro on 22/04/24.
+//  Created by Dicky Fahriza on 22/04/24.
 //
 
 import SwiftUI
@@ -25,7 +25,6 @@ struct FancyButton: View {
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
                     .transition(.move(edge: .top))
-                
             }
             
             if processing && !completed {
@@ -65,6 +64,7 @@ struct FancyButton: View {
         .onTapGesture {
             if !loading {
                 processing.toggle()
+                
             }
         }
     }

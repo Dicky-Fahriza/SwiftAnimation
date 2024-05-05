@@ -15,6 +15,7 @@
 		5274631F2BD621AF001537BF /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274631E2BD621AF001537BF /* MorphingAnimation.swift */; };
 		527463212BD635E7001537BF /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527463202BD635E7001537BF /* TransitionView.swift */; };
 		527463232BD63B86001537BF /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527463222BD63B86001537BF /* FancyButton.swift */; };
+		527463252BD64722001537BF /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527463242BD64722001537BF /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5274631E2BD621AF001537BF /* MorphingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimation.swift; sourceTree = "<group>"; };
 		527463202BD635E7001537BF /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		527463222BD63B86001537BF /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		527463242BD64722001537BF /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5274631E2BD621AF001537BF /* MorphingAnimation.swift */,
 				527463202BD635E7001537BF /* TransitionView.swift */,
 				527463222BD63B86001537BF /* FancyButton.swift */,
+				527463242BD64722001537BF /* ExerciseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				5274631F2BD621AF001537BF /* MorphingAnimation.swift in Sources */,
 				527463232BD63B86001537BF /* FancyButton.swift in Sources */,
 				527463212BD635E7001537BF /* TransitionView.swift in Sources */,
+				527463252BD64722001537BF /* ExerciseView.swift in Sources */,
 				5274630A2BD61293001537BF /* SwiftAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

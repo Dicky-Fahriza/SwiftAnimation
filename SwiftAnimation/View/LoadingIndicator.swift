@@ -2,7 +2,7 @@
 //  LoadingIndicator.swift
 //  SwiftAnimation
 //
-//  Created by MacBook Pro on 22/04/24.
+//  Created by Dicky Fahriza on 22/04/24.
 //
 
 import SwiftUI
@@ -37,11 +37,11 @@ struct LoadingProgress: View {
             .onAppear {
                 isLoading = true
                 Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
-                    //                    Progress = progress + 0.5
-                    //                    progress += 0.05
+//                    Progress = progress + 0.5
+//                    progress += 0.05
                     
                     if progress > 1.0 {
-                        //                        timer.invalidate()
+//                        timer.invalidate()
                         progress = 0.0
                         
                     } else {
@@ -49,7 +49,8 @@ struct LoadingProgress: View {
                     }
                 }
             }
-    }}
+    }
+}
 
 struct LoadingWithProgress: View {
     @State private var isLoading = false
@@ -66,15 +67,15 @@ struct LoadingWithProgress: View {
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
                 .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
                 .animation(.linear(duration: 0.5).repeatForever(autoreverses: false), value: isLoading)
+            
                 .onAppear {
                     isLoading = true
                     Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
                         progress += 0.01
                         
                         if progress > 1.0 {
-                            //                        timer.invalidate()
+                            // timer.invalidate()
                             progress = 0.0
-                            
                         } else {
                             progress += 0.01
                         }
